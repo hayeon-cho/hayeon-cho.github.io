@@ -5,7 +5,6 @@ const getToday = () => {
     const month = now.getMonth();
     const day = now.getDate();
     const year = now.getFullYear();
-    console.log(year);
 
     const months = [
         "Jan",
