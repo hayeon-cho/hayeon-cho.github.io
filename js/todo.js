@@ -14,7 +14,7 @@ const deleteTodo = (event) => {
     const li = event.target.parentElement;
     li.remove();
     todos = todos.filter((todo) => todo.id !== parseInt(li.id));
-    savedTodos();
+    saveTodo();
 };
 
 const paintTodo = (newTodo) => {
